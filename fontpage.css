@@ -1,0 +1,141 @@
+.main{
+    margin: 0;
+    padding: 0;
+    background-image:url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-grow: 1;
+    color:#252526;
+}
+.nav{
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #F3F5F9;
+}
+.profile{
+    margin-top: 20px;
+}
+.profile img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0;
+}
+.profile a{
+  text-decoration: none;
+}
+.profile h3{
+ text-align: center;
+ font-size: 25px;
+ font-weight: 600;
+ margin-top: 10px;
+ margin-bottom: 5px;
+}
+.profile p {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
+ul li{
+    width: 80%;
+    display: block;
+}
+li a{
+    color: #252526;
+    font-size: 18px;
+    padding:15px 80px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: 1.5px solid #252526;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+li a:hover{
+    font-size: 20px;
+    color: #5199D4;
+    border: 1.5px solid  #5199D4;
+    box-shadow:0 2px #5199D4;
+}
+.dev{
+    color: #858A8C;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 15px;
+}
+.info{
+    flex-grow: 1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.intro{
+  width: 500px;
+  margin-left: 30px;
+
+}
+.intro h1,h2{
+    color: black;
+    margin: 5px 0;
+}
+h1 {
+    font-size: 60px;
+}
+h2{
+    padding-left: 5px;
+    font-style: italic;
+}
+.intro p{
+    padding-left: 15px;
+}
+@media screen and (max-width: 700px) {
+  .main{
+    flex-wrap: wrap;
+  }
+  .nav{
+    height: fit-content;
+  }
+  .info{
+    text-align: center;
+  }
+  .intro{
+    width: auto;
+  }
+  .nav{
+    order: 2;
+    width: 100%;
+  }
+  li{
+    margin-bottom: 12px;
+  }
+  .intro{
+    margin-left: 0;
+  }
+  .intro h1,h2{
+    margin: 0;
+   }
+    
+    h2{
+        padding-left: 0;
+    }
+    .intro p{
+        padding-left: 0;
+    }
+}

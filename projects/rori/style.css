@@ -1,0 +1,207 @@
+body{
+  font-family: latha;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0)) ,url(RoriBar.jpg)no-repeat;
+  background-size: cover;
+}
+
+.box{
+  width: 900px;
+  float: right;
+  border: 1px solid none;
+}
+.box ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box ul li{
+  width: 120px;
+  margin: 10px auto;
+  padding-left: 30px;
+}
+.box ul li a{
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: darkgray;
+}
+
+.box ul li:hover{background-color:rgb(28, 39, 76); }
+.box ul li a:hover{color: white;}
+
+
+.wd{
+  float: left;
+  width:300px;
+  height: 650px;
+  background-color: black;
+  opacity: 0.9;
+  padding: 55px;
+}
+.wd img{
+  width: 200px;
+  height: 200px;
+  opacity: 0.8;
+  padding-left: 50px;
+}
+.Welcome {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:200px;
+}
+
+.info {
+  color: darkgray;
+}
+.wd h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 40px auto 10px auto;
+}
+
+/*for reservation button*/
+.opt{
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.opt a{
+  padding: 10px 10px;
+  align-items: center;
+  text-decoration: none;
+  color:darkgray;
+  text-align: center;
+  font-size: large;
+}
+.opt:hover{background-color:rgb(28, 39, 76); }
+.opt a:hover{color: white;}
+
+
+/*For Welcome banner */
+.banner{
+  padding-top: calc(100vh - 70vh);
+  width:100%;
+  height:100px;
+}
+
+.banner h1{
+  text-align: center;
+  font-family: serif;
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px #111;
+}
+.banner p{
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px #111;
+}
+
+/*For the team page*/
+.developers {
+    padding-top: 150px;
+    padding-left: 15px;
+    column-gap: 25px;
+    display: flex;
+  }
+
+ .id {
+     font-size: 20px;
+ }
+
+
+ .book img {
+     width: 100%;
+     height: 110px;
+     object-fit: cover;
+ }
+
+
+
+
+/*For changing cover page*/
+
+.main_body{
+  font-family: latha;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0)) ,url(RoriPool.jpg)no-repeat;
+  background-size: cover;
+}
+
+.team{
+  font-family: latha;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0)) ,url(RoRiPool2.jpg)no-repeat;
+  background-size: cover;
+}
+
+.forms {
+  background: none;
+  padding-top: calc(100vh - 70vh);
+  margin: auto;
+  width: 400px;
+  height:100px;
+}
+.forms div form {
+  padding: 20px 20px;
+}
+
+/*menu banner*/
+.menu_banner{
+  padding: 100px 450px; 
+  align-self: center;
+}
+.menu_banner .menu_div {
+  width: 800px;
+  height: 500px;
+  background:rgba(255, 248, 220, 0.815);3
+}
+.menu_banner div h2,p {
+ color: #111;
+}
+.order .item {
+  width: 900px;
+  float: right;
+  overflow: scroll;
+  max-height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.order .book{
+  width: 250px;
+  height: 300px;
+  margin: 0 15px;
+  padding: 0;
+}
+.order img{
+  width: fit-content;
+}
+.divform{
+ height: fit-content;
+ width: 900px;
+ float: right;
+ background-color: rgba(17, 17, 17, 0.493);
+ display: flex;
+ flex-direction: row;
+}
+.orderform {
+ padding: 0 10px;
+}
+.orderform p{
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  font-size: large;
+}
+.divlable {
+  width: 200px;
+  height: fit-content;
+  height: 250px;
+  background-color: #111;
+}

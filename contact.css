@@ -1,0 +1,91 @@
+.contact{
+    flex-grow: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactinfo{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider{
+    margin-top: 20px;
+    height: 250px;
+    width: 500px;
+    background-image: url(img/tolerapic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.slider .Rslider,.Lslider{
+    height: 100%;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.personalinfo{
+    margin-top: 15px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: -2px -2px  rgba(255, 255, 255, 0.9);
+
+}
+.personalinfo p {
+    margin: 6px;
+    padding: 0 20px;
+    color:#252526;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.ename{
+    width: 250px;
+    height: 25px;
+    margin: 10px 0;
+}
+form textarea{
+    width: 250px;
+    height: 100px;
+}
+form button{
+    margin: 5px 0;
+    width: 80px;
+    padding: 10px;
+    color: white;
+    background-color: #0C56A5;
+    border: none;
+    border-radius: 5px;
+}
+@media screen and (max-width: 700px) {
+    .personalinfo{
+       width: auto;
+       height: fit-content;
+    }
+    .slider{
+      width: auto;
+      display: none;
+    }
+    .contactinfo{
+        width: auto;
+        height: fit-content;
+        padding: 50px;
+    }
+
+}

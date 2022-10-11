@@ -1,0 +1,82 @@
+body{
+    margin: 0 0;
+    background-color: rgb(4, 35, 48);
+}
+body{
+    animation-name: sky;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.sun{
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: gold;
+    transform: translate(-50vh,200px);
+}
+
+.sun {
+    animation-name: sunrise;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.grass {
+    position: sticky;
+    width: 100vw;
+    height: 300px;
+    border-radius: 15px;
+    margin: 0 0;
+    padding: 0 0;
+    background-color: green;
+}
+
+@keyframes sunrise {
+    
+    10%{
+        transform: translate(-10vh,0px);
+        background-color: rgb(255, 100, 0);
+    }
+    25%{
+        transform: translate(35vh,-80px);
+        background-color: rgb(255, 150, 0);
+    }
+    50%{
+        transform: translate(80vh,-130px);
+    }
+    75% {
+        transform: translate(130vh,-80px);
+        background-color: rgb(255, 150, 0);
+    }
+    100%{
+        transform: translate(180vh,200px);
+        background-color: rgb(255, 100, 0);
+    }
+}
+@keyframes sky {
+    0%{
+        background-color: rgb(26, 77, 97);
+    }
+    10%{
+        background-color:rgb(175, 94, 18);
+    }
+    30%{
+        background-color: rgb(94, 163, 190);   
+    }
+ 
+    70% {
+        background-color: rgb(80, 187, 230);
+    }
+    90% {
+        background-color:rgb(175, 94, 18);
+    }
+    100%{
+        background-color: rgb(4, 35, 48);
+    }
+}
